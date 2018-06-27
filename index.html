@@ -1,41 +1,57 @@
-body {
-  font-family: Georgia;
-  font-size: 16px;
-  margin: 0 auto;   /* center content */
-  max-width: 800px; /* limit width */
-  line-height: 1,5;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-/* BEGIN (write your solution here) */
-p{
-    margin-bottom: 12px;
-}
-h1, h2, h3{
-    font-weight: 400;
-    margin-bottom: 0;
-}
-h1{
-    font-size: 36px;
-}
-h2{
-    font-size: 32px;
-    border-bottom: 1px solid gray;
-    margin-bottom: 8px;
-}
-h3{
-    font-size: 20px;
-}
-#header{
-    margin-bottom: 32px;
-    text-align: center
-}
-#footer{
-    margin-top: 64px;
-    text-align: center
-}
-div#footer p#name{
-    font-weight: bold;
-}
-/* END */
+<!-- BEGIN (write your solution here) -->
+<html>
+    
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Мое резюме</title>
+    </head>
+    <body>
+        <div id="header">
+            <h1>Dmitry Barbashin</h1>
+            <h3>QA team lead</h3>
+            <p>
+                <a href="mailto:keksite@mail.ru">keksite@mail.ru</a>, <a href="https://github.com/keksite">github.com/keksite</a>
+            </p>   
+        </div>
+        <div id="main">
+            <p>В тестировании с 2010 года. Все начиналось с тестирования мобтильных телефонов и сейчас уже провожу тестирование целых проектов
+                с backend
+            </p>
+            <section>
+                <h2 class="main_exp">Опыт работы</h2>
+                <h3>ООО "Евросеть"</h3>
+                <p> Инженер по ремонту техники, 2010 - 2014 </p>
+                <ul>
+                    <li>Ремонт телефонов</li>
+                    <li>Ремонт планшетов</li>
+                </ul>
+            </section>
+            <p></p>
+            <section>
+                <h2 class="main_exp">Образование</h2>
+                <h3>ООО "Евросеть"</h3>
+                <p> Инженер по ремонту техники, 2010 - 2014 </p>
+                <ul>
+                    <li>Ремонт телефонов</li>
+                    <li>Ремонт планшетов</li>
+                </ul>
+            </section>
+            <p></p>
+            <section>
+                <h2 class="main_exp">Другие навыки и увлечение</h2>
+                <h3>ООО "Евросеть"</h3>
+                <p> Инженер по ремонту техники, <p style=""> - 2014 </p>
+                <ul>
+                    <li>Ремонт телефонов</li>
+                    <li>Ремонт планшетов</li>
+                </ul>
+            </section>
+        </div>
+        <div id="footer">
+            <p id="name">Дмитрий Барбашин</p>
+            <p> д. Путилково ул. Сходненская 7, +7 888 999 0011, <a href="mailto:keksite@mail.ru">keksite@mail.ru</a></p>
+        </div>
+    </body>
+</html>
+<!-- END -->
